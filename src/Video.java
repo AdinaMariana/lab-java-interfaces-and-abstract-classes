@@ -1,0 +1,14 @@
+public abstract class Video {
+    protected String title;
+    protected int duration; // Duration in minutes
+
+    public Video(String title, int duration) {
+        this.title = title;
+        this.duration = duration;
+    }
+
+
+    public abstract String getInfo();
+
+}
+
